@@ -30,6 +30,7 @@ const MainPage = () => {
             setSearch('');
             setSelectedGender('');
             getData();
+            setError('');
         } else {
             setError('Wrong username or password!')
         }
